@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "D-Image",
+  "description": "下载当前页面图片",
+  "version": "0.0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content/content.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
