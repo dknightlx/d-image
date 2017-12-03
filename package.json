@@ -1,0 +1,19 @@
+{
+  "name": "d-image",
+  "version": "0.0.1",
+  "description": "chrome 插件 下载图片",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dknightlx/d-image.git"
+  },
+  "author": "DK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dknightlx/d-image/issues"
+  },
+  "homepage": "https://github.com/dknightlx/d-image#readme"
+}
