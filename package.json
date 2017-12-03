@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dknightlx/d-image/issues"
   },
-  "homepage": "https://github.com/dknightlx/d-image#readme"
+  "homepage": "https://github.com/dknightlx/d-image#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
 }
