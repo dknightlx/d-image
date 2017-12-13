@@ -5,15 +5,27 @@
     <title>D-Image</title>
     <style>
         #container {
-            width: 100px;
-            height: 200px;
+            width: 500px;
+            height: 300px;
+        }
+        .imgs-container {
+            display: flex;
+        }
+        img {
+            max-width: 50px;
+            max-height: 80px;
         }
     </style>
     <script src="background/background.js"></script>
 </head>
 <body>
     <div id="container">
-        <button id="tap-collect">点击采集</button>
+        <div class="control-btns">
+            <button id="tap-collect">点击采集</button>
+        </div>
+        <div class="imgs-container" id="imgs-container">
+
+        </div>
     </div>
 </body>
 </html>

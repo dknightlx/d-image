@@ -17,6 +17,10 @@
   ],
   "permissions": [
     "activeTab",
-    "storage"
-  ]
+    "storage",
+    "contentMenus"
+  ],
+  "icons": {
+    "16": "icon.png"
+  }
 }
